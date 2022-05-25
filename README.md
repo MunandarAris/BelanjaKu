@@ -1,7 +1,5 @@
 # 🎬 Toko Online BelanjaKu 🎬
 
-#
-
 ##### Apa itu BelanjaKu ?
 
 Sebuah toko online yang menyediakan berbagai kebutuhan sehari - hari seperti pakaian, pakain pria, pakaian wanita, peralatan masak, elektronik dan masih banyak lagi
