@@ -24,7 +24,7 @@ export default function Register() {
       {/* --- end meta tags --- */}
 
       <div className="bg-slate-200 relative w-full h-auto py-10 flex items-center justify-center select-none">
-        <div className="w-12/12 mx-3 sm:px-0 sm:w-7/12 md:w-5/12 lg:w-4/12 bg-white shadow m-auto rounded p-5 relative z-50">
+        <div className="w-full mx-3 sm:px-0 sm:w-7/12 md:w-5/12 lg:w-4/12 bg-white shadow m-auto rounded p-5 relative z-50">
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-orange mb-8 font-bold text-center">
             Daftar Akun
           </h1>
