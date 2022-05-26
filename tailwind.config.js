@@ -36,6 +36,10 @@ module.exports = {
           "0%": { opacity: "0", right: "-5em" },
           "100%": { opacity: "1", right: "0em" },
         },
+        otherCategoryMobileShow: {
+          "0%": { opacity: 0, bottom: "-10em" },
+          "100%": { opacity: 1, bottom: 0 },
+        },
       },
 
       // animation custom
@@ -44,6 +48,7 @@ module.exports = {
         rotateLeft: "rotateLeft 1s ease-in-out",
         navigationShowing: "navigationShowing 0.3s ease-in-out",
         drawerMenuShowwing: "drawerMenuShowwing 0.1s ease-in-out",
+        otherCategoryMobileShow: "otherCategoryMobileShow 0.2s ease",
       },
     },
   },

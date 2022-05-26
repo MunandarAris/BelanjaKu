@@ -8,6 +8,7 @@ const LayoutGeneral = dynamic(() =>
 const Sliders = dynamic(() => import("components/moleculs/Slider"));
 const CardProduct = dynamic(() => import("components/moleculs/CardProduct"));
 const Services = dynamic(() => import("components/moleculs/Services"));
+const Category = dynamic(() => import("components/moleculs/Category"));
 
 // meta tags
 import MetaTags from "constant/MetaTags";
@@ -18,6 +19,7 @@ import {
   pcProduct,
   services,
   peralatanRumahTangga,
+  categories,
 } from "constant/fakeData";
 
 export default function HomePage() {
@@ -32,6 +34,10 @@ export default function HomePage() {
           {/* --- sliders --- */}
           <Sliders sliders={dataSlider} />
           {/* --- end sliders --- */}
+
+          {/* --- category --- */}
+          <Category categories={categories} />
+          {/* --- end category --- */}
 
           <section className="max-w-6xl mt-5 m-auto p-5">
             {/* --- pc category --- */}
